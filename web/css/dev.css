@@ -1,0 +1,20 @@
+.table-striped > tbody > tr:nth-of-type(2n+1)
+ {background:transparent;}
+ .table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {border-left:none;border-right:none;vertical-align: middle;text-align: center;}
+ .btn-primary {border-radius:20px;font-size:12px;font-weight:bold;text-transform:uppercase;border: 3px solid #FFF;box-shadow: 0 0 2px -1px #585858;-moz-box-shadow: 0 0 2px -1px #585858;-webkit-box-shadow: 0 0 2px -1px #585858;
+ /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fe0000+0,b70707+100 */
+background: #fe0000; /* Old browsers */
+background: -moz-linear-gradient(top, #fe0000 0%, #b70707 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #fe0000 0%,#b70707 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #fe0000 0%,#b70707 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fe0000', endColorstr='#b70707',GradientType=0 ); /* IE6-9 */}
+/*.btn-primary:hover{color: #fff; background-color: #b70707; border-color: #b70707;}*/
+.btn-primary:hover, .btn-primary:active{background: #ffffff;
+    background-image: -webkit-linear-gradient(top, #ffffff, #f3f3f3);
+    background-image: -moz-linear-gradient(top, #ffffff, #f3f3f3);
+    background-image: -ms-linear-gradient(top, #ffffff, #f3f3f3);
+    background-image: -o-linear-gradient(top, #ffffff, #f3f3f3);
+    background-image: linear-gradient(to bottom, #ffffff, #f3f3f3);
+    color: #666666 !important;
+    border-color: #EBEBEB;
+    text-shadow: none !important;}
